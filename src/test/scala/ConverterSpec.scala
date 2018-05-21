@@ -12,7 +12,7 @@ class ConverterSpec extends WordSpec with MustMatchers {
       Converter.convert("VIII") mustEqual 8
     }
 
-    "Handle two character numerals as correct number" in {
+    "Handle subtractions if given" in {
       Converter.convert("CIV") mustEqual 104
     }
 
